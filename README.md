@@ -5,5 +5,9 @@
 
 При написании ориентируюсь на Nasm и примеры из книги "Программирование на языке ассемблера NASM для ОС Unix. А. Столяров"
 
-Для запуска: nasm -f elf CODE_FILE_NAME.asm ld -m elf_i386 -s -o PROG_NAME CODE_FILE_NAME.o
+Для запуска: 
+
+nasm -f elf CODE_FILE_NAME.asm 
+
+ld -m elf_i386 -s -o PROG_NAME CODE_FILE_NAME.o
 
